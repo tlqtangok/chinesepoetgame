@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>诗词填字小游戏</title>
+    <link rel="stylesheet" href="lib/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>🌸 诗词填字小游戏 🌸</h1>
+        
+        <div class="game-container">
+            <!-- 诗句卡片区域 -->
+            <div class="poem-area">
+                <div class="poem-line" id="line1"></div>
+                <div class="poem-line" id="line2"></div>
+            </div>
+            
+            <!-- 拖拽字区域 -->
+            <div class="drag-area" id="dragArea">
+                <p class="drag-hint">👇 把下面的字拖到上面的空格里 👇</p>
+                <div class="drag-chars" id="dragChars"></div>
+            </div>
+        </div>
+        
+        <!-- 提示信息 -->
+        <div class="message" id="message"></div>
+        
+        <!-- 重新开始按钮 -->
+        <button class="restart-btn" id="restartBtn">🎮 再玩一次</button>
+    </div>
+    
+    <script src="lib/game.js"></script>
+</body>
+</html>
