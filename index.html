@@ -2,13 +2,16 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>诗词填字小游戏</title>
     <link rel="stylesheet" href="lib/style.css">
 </head>
 <body>
     <div id="app">
-        <h1>🌸 诗词填字小游戏 🌸</h1>
+        <div class="header-row">
+            <h1>🌸 诗词填字小游戏 🌸</h1>
+            <button class="undo-btn" id="undoBtn" title="撤销">↩️</button>
+        </div>
         
         <div class="game-container">
             <!-- 诗句卡片区域 -->
